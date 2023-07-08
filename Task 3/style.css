@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: popins;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 20px auto;
+    
+  }
+
+  .main{
+    background-color: rgba(227, 169, 224, 0.5);
+    width: 25pc;
+    height: 28pc;
+    margin: 2% auto;
+    padding-top: 10px;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]:active{
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(202, 41, 159);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  #video{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
